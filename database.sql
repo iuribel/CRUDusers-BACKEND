@@ -1,0 +1,7 @@
+CREATE DATABASE users;
+
+CREATE TABLE useer(
+    Nombre VARCHAR(50) NOT NULL,
+    Birthday DATE NOT NULL,
+    Id INT PRIMARY KEY NOT NULL
+);
